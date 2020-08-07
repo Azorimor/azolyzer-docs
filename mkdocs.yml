@@ -1,2 +1,5 @@
-site_name: My Docs
+site_name: Azorimor-DB
 theme: material
+nav:
+  - Home: index.md
+  - Contribute: ./contribute/index.md

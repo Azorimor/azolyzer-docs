@@ -11,7 +11,7 @@
       
       
       <link rel="shortcut icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.3">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.6">
     
     
       
@@ -19,7 +19,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.947af8d5.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.63b94e9e.min.css">
       
       
     
@@ -202,6 +202,19 @@
     Contribute to the bot itself
   </a>
   
+    <nav class="md-nav" aria-label="Contribute to the bot itself">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    Getting started
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -275,6 +288,19 @@
     Contribute to the bot itself
   </a>
   
+    <nav class="md-nav" aria-label="Contribute to the bot itself">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    Getting started
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -329,6 +355,44 @@
                 
                 <h1 id="how-to-contribute-to-the-project">How to contribute to the project</h1>
 <h2 id="contribute-to-the-bot-itself">Contribute to the bot itself</h2>
+<h3 id="getting-started">Getting started</h3>
+<p>1) In oder to start programming and contributing you need to clone the repository of the bot.</p>
+<pre><code># Using ssh
+git clone git@github.com:Azorimor/discordbot.git
+
+# Using https
+git clone https://github.com/Azorimor/discordbot.git
+</code></pre>
+
+<p>2) Open the folder you just cloned with your favorite Terminal and install the dependencies.</p>
+<pre><code># For the backend
+cd backend
+npm install
+
+# For the frontend (Web interface)
+cd angular-frontend 
+npm install
+</code></pre>
+
+<p>3) Open the folder in an editor. Now copy the file named <strong>.env.example</strong> and name the copied file <strong>.env</strong>.<br />
+Now you need to change some values here. Currently only the value for the <strong>DISCORD_TOKEN</strong> needs to be set.<br />
+Navigate to the discord developer portal and register an application. Then you can change your application to a bot application and copy the token of the bot into this <strong>.env</strong> file.</p>
+<p>4) Now you need to setup the database for development. This is currently done by using the default <em>docker-compose.yml</em> file. You need to have docker and docker-compose installed on your machine.</p>
+<pre><code># Inside the backend folder run
+docker-compose up -d
+</code></pre>
+
+<p>5) Now the bot can be started for development by running the following commands.</p>
+<pre><code># For the backend in the backend folder
+npm run start:watch
+
+# For the frontend in the angular-frontend folder
+ng serve
+</code></pre>
+
+<p>6) If you want you probably should install the angular-cli globally aswell, if you are working on the frontend. 
+If your working on the backend and want to make changes to the database it is also recommended to install the typeorm-cli globally.
+Visit the official documentations for further informations.</p>
 <h2 id="contribute-to-this-documentation">Contribute to this documentation</h2>
 <p>This documentation is build by using <a href="https://www.mkdocs.org">mkdocs.org</a>. Visit the official site for their documentation.
 On top of that, a <a href="https://squidfunk.github.io/mkdocs-material/">material theme</a> is used.</p>
@@ -341,6 +405,7 @@ git clone git@github.com:Azorimor/discordbot-docs.git
 # Using https
 git clone https://github.com/Azorimor/discordbot-docs.git
 </code></pre>
+
 <p>2) Install mkdocs and the material theme.  </p>
 <p>As mentioned above, visit the <a href="https://www.mkdocs.org/#installation">official documentation</a> for more detail.
 You need to make sure, Python 3.x and pip is installed on your computer. Not every Python version is supported today.
@@ -355,7 +420,6 @@ Now you can install mkdocs and the material theme. </p>
 <h3 id="commands">Commands</h3>
 <ul>
 <li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
 <li><code>mkdocs -h</code> - Print help message and exit.</li>
 </ul>
 <h3 id="project-layout">Project layout</h3>
@@ -416,15 +480,15 @@ docs/
       
     </div>
     
-      <script src="../assets/javascripts/vendor.c3dc8c49.min.js"></script>
-      <script src="../assets/javascripts/bundle.f9edbbd5.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      <script src="../assets/javascripts/vendor.d1f5a259.min.js"></script>
+      <script src="../assets/javascripts/bundle.d5fec882.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
       
       <script>
         app = initialize({
           base: "..",
           features: [],
           search: Object.assign({
-            worker: "../assets/javascripts/worker/search.8e2cddea.min.js"
+            worker: "../assets/javascripts/worker/search.fae956e7.min.js"
           }, typeof search !== "undefined" && search)
         })
       </script>

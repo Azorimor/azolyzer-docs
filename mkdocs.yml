@@ -4,6 +4,7 @@ site_description: Azolyzer analyze discord server statistics.
 repo_url: https://github.com/Azorimor/azolyzer
 theme:
   name: material
+  favicon: ../assets/favicon.png
   palette:
     scheme: preference
 extra:

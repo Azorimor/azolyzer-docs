@@ -22,7 +22,7 @@ plugins:
   - search
 markdown_extensions:
   - attr_list
-google_analytics: ['UA-142181342-2','azorimor.github.io/azolyzer-docs/']
+google_analytics: ['UA-142181342-2','auto']
 nav:
   - Home: index.md
   - Contribute: ./contribute/index.md

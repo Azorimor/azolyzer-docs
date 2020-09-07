@@ -1,7 +1,8 @@
 site_name: Azolyzer
 site_author: Azorimor
 site_description: Azolyzer analyze discord server statistics.
-repo_url: https://github.com/Azorimor/azolyzer
+site_url: https://azorimor.github.io/azolyzer-docs/
+repo_url: https://github.com/Azorimor/azolyzer-docs
 theme:
   name: material
   favicon: ../azolyzer-docs/assets/favicon.png
@@ -21,7 +22,7 @@ plugins:
   - search
 markdown_extensions:
   - attr_list
-google_analytics: ['UA-142181342-2','auto']
+google_analytics: ['UA-142181342-2','azorimor.github.io/azolyzer-docs/']
 nav:
   - Home: index.md
   - Contribute: ./contribute/index.md

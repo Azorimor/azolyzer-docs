@@ -5,14 +5,14 @@ On top of that, a [material theme](https://squidfunk.github.io/mkdocs-material/)
 ## How to get started 
 1) Clone Repository  
 
-First clone the [repository](https://github.com/Azorimor/azolyzer-docs) for the documentation.
+First fork the [repository](https://github.com/Azorimor/azolyzer-docs) for the documentation and then download the forked repository.
 
 ```
 # Using ssh
-git clone git@github.com:Azorimor/azolyzer-docs.git
+git clone git@github.com:<GITHUB USERNAME>/azolyzer-docs.git
 
 # Using https
-git clone https://github.com/Azorimor/azolyzer-docs.git
+git clone https://github.com/<GITHUB USERNAME>/azolyzer-docs.git
 ```
 
 2) Install mkdocs and the material theme.  
@@ -30,6 +30,8 @@ pip install mkdocs-material
 ```
 
 For more information about the used material theme, visit the [documentation](https://squidfunk.github.io/mkdocs-material/getting-started/).
+
+3) After changes are made, you can commit and push your changes back to github and then create a pull request to the official repository on the develop branch.
 
 ## Commands
 

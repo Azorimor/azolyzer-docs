@@ -1,13 +1,13 @@
 # Contribute to the bot itself
 ## Getting started
-1) In oder to start programming and contributing you need to clone the repository of the bot.
+1) In oder to start programming and contributing you need to fork the repository of the bot on github and then download this repository.
 
 ```
 # Using ssh
-git clone git@github.com:Azorimor/azolyzer.git
+git clone git@github.com:<GITHUB USERNAME>/azolyzer.git
 
 # Using https
-git clone https://github.com/Azorimor/azolyzer.git
+git clone https://github.com/<GITHUB USERNAME>/azolyzer.git
 ```
 
 2) Open the folder you just cloned with your favorite Terminal and install the dependencies.
@@ -46,3 +46,5 @@ ng serve
 6) If you want you probably should install the angular-cli globally aswell, if you are working on the frontend. 
 If your working on the backend and want to make changes to the database it is also recommended to install the typeorm-cli globally.
 Visit the official documentations for further informations.
+
+7) After changes are made, you can commit and push your changes back to github and then create a pull request to the official repository on the develop branch.

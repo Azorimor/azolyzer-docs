@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
      <loc>https://azorimor.github.io/azolyzer-docs/</loc>
-     <lastmod>2020-09-07</lastmod>
+     <lastmod>2020-09-26</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://azorimor.github.io/azolyzer-docs/contribute/</loc>
-     <lastmod>2020-09-07</lastmod>
+     <loc>https://azorimor.github.io/azolyzer-docs/self-hosting/</loc>
+     <lastmod>2020-09-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://azorimor.github.io/azolyzer-docs/self-hosting/deploy/</loc>
+     <lastmod>2020-09-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://azorimor.github.io/azolyzer-docs/self-hosting/environment/</loc>
+     <lastmod>2020-09-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://azorimor.github.io/azolyzer-docs/contribute/bot/</loc>
+     <lastmod>2020-09-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://azorimor.github.io/azolyzer-docs/contribute/docs/</loc>
+     <lastmod>2020-09-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>

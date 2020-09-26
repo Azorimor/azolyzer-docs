@@ -1,6 +1,6 @@
 site_name: Azolyzer
 site_author: Azorimor
-site_description: Azolyzer analyze discord server statistics.
+site_description: Azolyzer analyze and collect discord server statistics.
 site_url: https://azorimor.github.io/azolyzer-docs/
 repo_url: https://github.com/Azorimor/azolyzer-docs
 theme:
@@ -22,7 +22,6 @@ plugins:
   - search
 markdown_extensions:
   - attr_list
-google_analytics: ['UA-142181342-2','auto']
 nav:
   - Home: index.md
   - Contribute: 

@@ -24,6 +24,10 @@ markdown_extensions:
   - attr_list
 nav:
   - Home: index.md
+  - Self hosting:
+    - Information: ./self-hosting/index.md
+    - Deploy: ./self-hosting/deploy.md
+    - Environment: ./self-hosting/environment.md
   - Contribute: 
     - Bot: ./contribute/bot.md
     - Docs: ./contribute/docs.md
